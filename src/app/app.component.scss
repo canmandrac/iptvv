@@ -1,0 +1,127 @@
+$primary-blue: #39A5F4;
+$secondary-blue: #d9eaf7;
+$card-blue: #163D87;
+$card-text: #4877CC;
+$hover-blue: #3186c4;
+$primary-green: #23ADBD;
+$hover-green: #1f8d99;
+$secondary-green: #d0f6fa;
+$bg-blue: #F3F7FB;
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 40px;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  bottom: 40px;
+}
+
+.instagram {
+  background-color: #C13584;
+  bottom: 110px;
+}
+
+.facebook {
+  background-color: #4267B2;
+  bottom: 180px;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.price {
+  font-size: 70px;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.bi-check-lg {
+  color: $primary-blue;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: $primary-blue;
+  border: 1px solid $primary-blue;
+  color: #FFF;
+}
+
+.btn-primary:hover {
+  background-color: $hover-blue;
+}
+
+.btn-success {
+  background-color: $primary-green;
+  border: 1px solid $primary-green;
+  color: #FFF;
+}
+
+.btn-success:hover {
+  background-color: $hover-green;
+}
+
+.green {
+  color: $primary-green;
+}
+
+.bg-green {
+  background: $secondary-green;
+}
+
+.blue {
+  color: $primary-blue;
+}
+
+.bg-blue {
+  background: $secondary-blue;
+}
+
+.text-blue {
+  color: $card-blue;
+}
+
+.round {
+  border-radius: 15px;
+}
+
+.card-hover {
+  transition: all 300ms ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.icon-hover {
+  transition: all 300ms ease;
+}
+
+.icon-hover:hover {
+  transform: scale(1.2);
+}
+
+.bg-card {
+  background-color: $card-blue;
+}
+
+.card-price {
+  color: $card-text;
+}
+
+ul {
+  list-style-type: none;
+}
